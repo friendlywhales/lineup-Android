@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lineup</string>
+    <string name="warn_require_comment">설명을 작성해주세요</string>
+    <string name="warn_require_photo">사진을 선택해주세요</string>
+    <string name="warn_require_photo_permission">사진첩 접근 권한이 필요합니다</string>
+    <string name="error_upload">업로드 오류</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/actionbar_close"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.0"
+        android:minWidth="50dp"
+        android:textColor="@color/colorPoint"
+        android:text="닫기" />
+
+    <TextView android:id="@+id/actionbar_title"
+        android:text="글쓰기"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:textAlignment="center" />
+
+    <Button android:id="@+id/actionbar_upload"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.0"
+        android:minWidth="50dp"
+        android:textColor="@color/colorPoint"
+        android:text="올리기" />
+</LinearLayout>

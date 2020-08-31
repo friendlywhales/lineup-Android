@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "335237826959",
+    "firebase_url": "https://lineupdev-db583.firebaseio.com",
+    "project_id": "lineupdev-db583",
+    "storage_bucket": "lineupdev-db583.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335237826959:android:4e59473df1d70c6c4463fa",
+        "android_client_info": {
+          "package_name": "me.line_up.lineup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335237826959-ek2cofu3da799ce2e4pt4r6n22a9hkvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9i0WSqnEQsJ8P2IoBC6cwtdXCBtwCEMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335237826959-ek2cofu3da799ce2e4pt4r6n22a9hkvb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "335237826959-kv2ve4taotke2m4pp1qgo56sp1l2qgv1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.lineup.lineup.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

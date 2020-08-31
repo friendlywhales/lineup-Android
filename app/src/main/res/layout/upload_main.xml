@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#d0d0d0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selected_photos"
+        android:orientation="horizontal"
+        android:background="@color/colorPoint"
+        android:padding="8dp"
+        android:overScrollMode="ifContentScrolls"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editor"
+        android:background="#ffffff"
+        android:textSize="15dp"
+        android:hint="여기를 눌러 설명을 작성해주세요"
+        android:padding="10dp"
+        android:gravity="top|left"
+        android:minLines="9"
+        android:maxLines="9"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+</LinearLayout>
